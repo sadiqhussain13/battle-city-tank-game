@@ -1,0 +1,22 @@
+.enemy-tank {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+  }
+  
+  .enemy-tank.up {
+    transform: rotate(0deg);
+  }
+  
+  .enemy-tank.right {
+    transform: rotate(90deg);
+  }
+  
+  .enemy-tank.down {
+    transform: rotate(180deg);
+  }
+  
+  .enemy-tank.left {
+    transform: rotate(270deg);
+  }  

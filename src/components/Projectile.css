@@ -1,0 +1,22 @@
+.projectile {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+  }
+  
+  .projectile.up {
+    transform: rotate(0deg);
+  }
+  
+  .projectile.right {
+    transform: rotate(90deg);
+  }
+  
+  .projectile.down {
+    transform: rotate(180deg);
+  }
+  
+  .projectile.left {
+    transform: rotate(270deg);
+  }  
