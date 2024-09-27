@@ -1,0 +1,18 @@
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 40px);
+    grid-template-rows: repeat(10, 40px);
+    gap: 2px;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    width: 40px;
+    height: 40px;
+    background-color: lightgray;
+    border: 1px solid black;
+  }
+  
